@@ -7,12 +7,13 @@
     <script type="text/javascript" src="tuoro.js"></script>
     <script type="text/javascript" src="ngesan'o sakiai.js"></script>
   </head>
-  <body>
-    <div class="darkBackground">
+  <body onload="onload()">
+    <div class="darkBackground" id="darkBackground">
+      <div class="clickDetect" onclick="hide('darkBackground')"></div>
       <div class="infospring centered" id="infospring">
         <h1>Spark owl</h1>
         <hr>
-        <p class="greyOpacity">The following information is taken from an Anaxi Infocache (code: <span onclick="displayOnInfobox(infocache.b28vc)">b2-8vc</span>) and as such will not reflect present-day conditions.</p>
+        <p class="greyOpacity">The following information is taken from an Anaxi Infocache (code: <span onclick="Infobox.display(infocache.b28vc)">b2-8vc</span>) and as such will not reflect present-day conditions.</p>
         <div class="sections">
           <div class="databox">
             <img src="images/items/vial.png" alt="itemImage">
@@ -29,19 +30,20 @@
           <div class="section">
             <h2 tabindex="-1">Habitat</h2>
             <hr>
-            <p>Spark owls, like most songbirds, live their entire lives within <span onclick="Infospring.open('ancient biomes','satose forest')">Satose forests</span>. Outside these environments constantly filled with sound, spark owls have difficulty reaching high enough stored energy in their feathers, and typically starve to death due to their inability to perform their attack.</p>
+            <p>Spark owls, like most songbirds, live their entire lives within <span onclick="Infospring.open('ancient biomes','satose forest')">Satose forests</span>. Outside these environments constantly filled with sound, spark owls have difficulty gathering enough energy in their feathers, and typically starve to death due to their inability to perform their attack.</p>
           </div>
           <div class="section">
             <h2 tabindex="-1">Feeding</h2>
             <hr>
             <p>Spark owls possess an extremely unique hunting style, relying on their capability to absorb and reemit sounds. Spark owls gather energy within their feathers over time through ambient noise, gathering energy until a specific threshold is reached. Once this happens, the owl will swoop down on prey and release a deadly sonic blast, the sound waves of which are capable of reaching up to 200 decibels, aided by tactical releases of fire increasing air density to support the wave.
-            <p>The attack of a spark owl is enough to fatally damage most creatures. In fact, the only creatures capable of physically withstanding such a shockwave are those of the <span onclick="Infospring.open('minor clans','stalwart')">Stalwart</span> clan, though not without injury.</p>
+            <p>The attack of a spark owl is enough to fatally damage most creatures. The only creatures capable of physically withstanding such a shockwave are those of the <span onclick="Infospring.open('minor clans','stalwart')">Stalwart</span> clan, though not without injury.</p>
             <p>Another unique ability of the spark owl is their ability to metabolize <span onclick="Infospring.open('energy','darkness')">Darkness energy</span> into their <span onclick="Infospring.open('life','resonant element')">resonant element</span>, <span onclick="Infospring.open('energy','fire')">Fire</span>. As such, their prey are typically members of the <span onclick="Infospring.open('darkness clans','darkness')">Darkness clans</span>.</p>
           </div>
           <div class="section">
             <h2 tabindex="-1">Human impact</h2>
             <hr>
-            <p>Spark owls are a frequent nuisance of Darkness <span onclick="Infospring.open('wards','ward forgers')">ward forgers</span>, as the bubble of night around darkness <span onclick="Infospring.open('wards','wardstones')">wardstones</span> frequently attract spark owls searching for food. In biomes with large numbers of Spark owls (eg. Satose forests) Darkness wardstones are quickly weathered down by misled Spark owls.</p>
+            <p>Spark owls are a frequent nuisance of Darkness <span onclick="Infospring.open('wards','ward forgers')">ward forgers</span>, as the bubble of night around darkness <span onclick="Infospring.open('wards','wardstones')">wardstones</span> frequently attract spark owls searching for food. In biomes with large numbers of Spark owls (eg. <span onclick="Infospring.open('ancient biomes','satose forest')">Satose forests</span>) Darkness wardstones are quickly weathered down by misled Spark owls.</p>
+            <p>Spark owl feathers are a valuable scientific commodity, as the ability to both store and release acoustic energy with such efficiency is rarely seen.</p>
           </div>
         </div>
       </div>
@@ -60,7 +62,7 @@
         </div>
       </div>
     </div>
-    <div class="infobox" id="infobox" style="bottom:-200px">
+    <div class="infobox" id="infobox" style="bottom:-200px" onclick="Infobox.hideInfobox()">
       <p class="smallText darkGrey">infobox</p>
       <h2 id="infoboxTitle"></h2>
       <div class="hr"></div>
@@ -76,16 +78,16 @@
       </div>
       <div class="right">
         <div class="content">
-          <div class="sponsorOne" onclick="displayOnInfobox(sponsors.drinksFoundation)">
+          <div class="sponsorOne" onclick="Infobox.display(sponsors.drinksFoundation)">
             <h3 class="textCentered centered entered white">The Drinks Foundation</h3>
           </div>
-          <div class="sponsorTwo" onclick="displayOnInfobox(sponsors.hiukukikannochifon)">
+          <div class="sponsorTwo" onclick="Infobox.display(sponsors.hiukukikannochifon)">
             <h3 class="textCentered centered darkGrey">Hiukukikanno-chifon Research Facility</h3>
           </div>
-          <div class="sponsorThree" onclick="displayOnInfobox(sponsors.contingencyCenter)">
+          <div class="sponsorThree" onclick="Infobox.display(sponsors.contingencyCenter)">
             <h3 class="textCentered centered white">Kaliki Precursor Contingency Center</h3>
           </div>
-          <div class="sponsorFour" onclick="displayOnInfobox(sponsors.otherWorlds)">
+          <div class="sponsorFour" onclick="Infobox.display(sponsors.otherWorlds)">
             <h3 class="textCentered centered darkGrey">Other Worlds Labs Hub-724</h3>
           </div>
         </div>

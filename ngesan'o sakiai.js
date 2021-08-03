@@ -1,11 +1,29 @@
-function displayOnInfobox(infoObj) {
-  //toggle infobox if disabled
-  var infobox = document.getElementById("infobox");
-  if (infobox.style.bottom == "-200px") {
-    infobox.style.bottom = "15px";
+function onload() {
+  Infobox.initialize();
+}
+class Infobox {
+  static initialize() {
+    Infobox.infobox = document.getElementById("infobox");
+    Infobox.infoboxDesc = document.getElementById("infoboxDesc");
   }
-  document.getElementById("infoboxTitle").innerHTML = infoObj.name;
-  Typewriter.write(infoObj.desc,document.getElementById("infoboxDesc"));
+  static display(infoObj) {
+    //toggle infobox if disabled
+    if (this.infobox.style.bottom == "-200px") {
+      Infobox.revealInfobox();
+    }
+    document.getElementById("infoboxTitle").innerHTML = infoObj.name;
+    Typewriter.write(infoObj.desc,this.infoboxDesc);
+  }
+  static hideInfobox() {
+    this.infobox.style.bottom = "-200px";
+  }
+  static revealInfobox() {
+    this.infobox.style.bottom = "15px";
+  }
+}
+function hide(id) {
+  document.getElementById(id).style.opacity = 0;
+  document.getElementById(id).style.pointerEvents = "none";
 }
 class Infospring {
   static scroll(section) {

@@ -83,6 +83,11 @@ Sueisen
 Densewrit
 
 
+photosynthesis but magic
+- a good set of animals are very similar to plants but eat environmental magic (eg. from the sun)
+- first trophic level is expanded
+
+
 <div class="item">
   <img src="images/items/vial.png" alt="itemImage">
   <p>Kiiki Saoru Catalyst [20mL]</p>
