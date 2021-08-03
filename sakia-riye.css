@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Merriweather&family=Roboto&display=swap');
+/*///////////////////////////////////////////////*/
+body {
+  padding:60px 0 200px 0;
+  margin:0;
+  overflow-x:hidden;
+}
+.thick {
+  font-family:'Kanit', sans-serif;
+  letter-spacing:1px;
+}
+h1, h2, h3, h4, h5, h6, p, span, button {
+  margin:0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family:'Merriweather', serif;
+}
+p, span, button {
+  font-family:'Roboto', sans-serif;
+}
+button {
+  padding:10px 40px;
+  margin-top:10px;
+  border:0;
+  background-color:rgb(10,55,85);
+  color:rgb(255,255,255);
+}
+button:hover {
+  background-color:rgba(10,55,85,0.8)
+}
+button:active {
+  background-color:rgb(255,255,255);
+  color:rgb(10,55,85);
+}
+/*///////////////////////////////////////////////*/
+.topbar {
+  width:calc(100% - 40px); /*100% - padding, would use border-box but for some reason that breaks z-index*/
+  height:40px;
+  padding:10px 20px;
+  z-index:100;
+  position:fixed;
+  top:0;
+  left:0;
+  background-color:white;
+  display:flex;
+}
+.topbar > div {
+  display:inline-block;
+}
+.topbar .searchBar {
+  width:100%;
+  height:40px;
+}
+.topbar .navigation {
+  display:flex;
+}
+.topbar .navigation > div {
+  height:40px;
+  width:150px;
+  float:left;
+  text-align:center;
+}
+.topbar .navigation > div:hover {
+  background-color:rgb(240,240,240);
+}
+.topbar .navigation > div p {
+  line-height:40px;
+}
+.logo {
+  height:40px;
+}
+.infobox {
+  position:fixed;
+  z-index:300;
+  bottom:15px;
+  right:15px;
+  width:400px;
+  height:200px;
+  background-color:rgb(255,255,255);
+  border:2px solid rgb(225,225,225);
+  border-radius:15px;
+  padding:10px;
+  transition:0.5s;
+  box-sizing:border-box;
+}
+.infobox h2 {
+  margin:5px;
+}
+.infobox .smallText {
+  position:absolute;
+  right:8px;
+  top:5px;
+  text-align:right;
+}
+.infobox .hr {
+  margin-bottom:10px;
+}
+
+.sectionOne {
+  display:flex;
+  height:300px;
+  z-index:0;
+  box-shadow:0 0px 15px rgb(100,100,100);
+}
+.sectionOne .left {
+  width:55%;
+  background-color:rgb(240,240,240);
+}
+.sectionOne .right {
+  width:45%;
+  background-color:red;
+}
+.sectionOne .right .content {
+  display:flex;
+  height:100%;
+}
+.sectionOne .right .content div {
+  width:33.33%;
+  height:100%;
+  position:relative;
+}
+.sectionOne .right .content .sponsorOne, .sectionOne .right .content .sponsorThree {
+  background-color:rgb(10,55,85);
+}
+.sectionOne .right .content .sponsorTwo, .sectionOne .right .content .sponsorFour {
+  background-color:rgb(255,215,150);
+}
+
+.topSection {
+  background-color:rgb(0,40,60);
+  text-align:center;
+  padding:20px 10px;
+  color:white;
+}
+.topSection .logo {
+  height:30px;
+}
+.topSection h1 {
+  line-height:30px;
+}
+.topSection .hr {
+  display:inline-block;
+  width:60%;
+}
+
+.sectionTwo {
+  padding:50px;
+}
+.sectionTwo > div {
+  margin-bottom:50px;
+  display:flex;
+}
+.item {
+  width:200px;
+  padding:20px 20px 40px 20px;
+  background-color:rgb(240,240,240);
+  display:inline-block;
+  margin:20px 20px 0 0;
+  position:relative
+}
+.advert {
+  padding-bottom:20px;
+  text-align:center;
+}
+.advert button {
+  display:inline-block;
+}
+.item:hover {
+  box-shadow:0 3px 5px rgb(170,170,170);
+  cursor:pointer;
+}
+.item img {
+  width:200px;
+  height:200px;
+  background-color:rgb(255,255,255);
+  border:2px solid rgb(200,200,200);
+  display:block;
+  margin-bottom:10px;
+  box-sizing:border-box;
+}
+.advert img {
+  height:150px;
+  width:200px;
+  padding:0 25px;
+}
+.item h4 {
+  font-weight:normal;
+}
+.item > .smallText {
+  position:absolute;
+  bottom:20px;
+  right:20px;
+  display:inline-block;
+}
+/*///////////////////////////////////////////////*/
+.darkBackground {
+  background-color:rgb(0,0,0,0.3);
+  width:100%;
+  height:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:200;
+}
+.infospring {
+  padding:20px 20px 50px 20px;
+  background-color:rgb(255,255,255);
+  display:inline-block;
+  text-align:left;
+  width:90%;
+  height:80%;
+  box-sizing:border-box;
+  position:absolute;
+  overflow-y:scroll;
+}
+.infospring .databox {
+  float:right;
+  clear:right;
+  width:200px;
+  padding:5px;
+  min-height:100px;
+  margin:0px 30px 0px 30px;
+  border:2px solid rgb(225,225,225);
+  margin-bottom:20px;
+}
+.infospring .databox img {
+  width:200px;
+}
+.infospring .navigator p {
+  margin-bottom:5px;
+}
+.infospring .navigator span {
+  background-color:rgb(240,240,240);
+  padding:10px 40px;
+  margin-right:10px;
+  display:inline-block;
+  margin-bottom:5px;
+}
+.infospring .section {
+  margin-top:20px;
+}
+.infospring .section h2 {
+  transition:0.2s;
+  display:inline-block;
+}
+.infospring .section h2:focus {
+  outline:0;
+  background-color:rgb(255,215,150);
+}
+.infospring span {
+  color:rgb(5,70,175);
+}
+.infospring span:hover {
+  text-decoration:underline;
+  cursor:pointer;
+}
+.infospring p {
+  margin-bottom:20px;
+}
+/*///////////////////////////////////////////////*/
+.hidden {
+  display:none;
+}
+.darkGrey {
+  color:rgb(10,55,85);
+}
+.grey {
+  color:rgb(150,150,150);
+}
+.greyOpacity {
+  opacity:0.6;
+}
+.white {
+  color:rgb(255,255,255);
+}
+.hr {
+  height:2px;
+  background-color:rgb(10,55,85);
+  width:calc(100%);
+}
+.smallText {
+  font-size:12px;
+}
+.centered {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.textCentered {
+  text-align:center;
+}
+.relative {
+  position:relative;
+}
+.whiteButton {
+  background-color:rgb(255,255,255);
+  color:rgb(10,55,85);
+}
+.whiteButton:hover {
+  background-color:rgb(10,55,85,0.1);
+}
+.whiteButton:active {
+  background-color:rgb(10,55,85);
+  color:rgb(255,255,255);
+}

@@ -1,0 +1,153 @@
+compounds:
+  azai + ki / su- + fun  =  word_possess / idea
+  ngeo + san'o / sakiai  =  to do_passive / words
+  sakiai + riye  =  words of style
+single words:
+  mbira  =  home
+  ngaku  =  festival
+
+
+
+mechanics plans:
+  crafting and blueprints
+  -
+knowledge gathering crystals
+  - unlocks lore over time, as knowledge is gathered within the crystals
+
+
+the Bestiary:
+Spark Owls
+Description
+- The Spark Owls are an extant member of the Songbird family, the only fire-based songbirds still alive today. Spark Owls possess a vast wingspan, approximately seven times the length of their body, <link: Sound-storage#sparkowl<feathered with plumage capable of absorbing and reemiting sounds>>. This gives Fire Owls the unique ability to fly completely silently, allowing them to swoop down on prey without alerting them.
+- Once a Spark Owl reaches their prey, however, they are nothing but quiet. In a split-second, the owl releases a deafening, concentrated soundwave powered by their feathers and greatly enhanced by a simultaneous gust of fire (This gust of fire is short-lived, but extremely bright, lending the name Spark Owl to these birds.) Most creatures are incapable of handling shockwaves of the Owl's soundwave's magnitude, and will immediately be concussed or enter a coma. The only species capable of physically withstanding an attack of the Owl unscathed are those of the <<Stalwart>> clan.
+- Another unique ability of the Spark Owl is their ability to metabolize <<Darkness energy>> into Fire energy. As such, their prey are typically members of the <<Darkness clan>>. To help aid them catch the speedy, hidden creatures of the Darkness clan, Spark Owls possess an unrivaled capability to sense collections of Darkness magic.
+Human Impact
+- Spark Owls are a frequent interruptor of <<Darkness>> <<Ward forgers>>, as the bubble of night around <link: Wards<Warding machines>> commonly attract Spark Owls searching for food. In biomes with large collections of Spark Owls (eg. <<darkforest>>) Darkness Wards are quickly destroyed by the confused birds.
+
+Employment
+- ("Employment" is a song-magic process. For "employment" as in working a job, visit <link: https://en.wikipedia.org/wiki/Employment<here>>.)
+- Employment is a process of <<song-magic>>, wherein Divine or Profane songs are used to either coax or force magic-particles suspended in air to perform *duties*. Duties come in a variety of categories, from <link:wards<warding barriers>> to offensive attacks, or to more industrial processes like transporting goods or producing raw material.
+Divine Songs
+- The behavior of magic-particles varies greatly depending on the type of song. Divine songs are melodies that call upon an <<Elemental God>>'s <<intent>> to gently coax particles to do certain tasks.
+Sapience Exclusivity Theory
+- Divine Songs are the only known song-based method to produce living creatures. However, creatures produced by the hand of a Elemental God are incapable of sapience.
+- It has been theorized and widely accepted then that this incapability is due to an <link:akamaku#inherent_laws<inherent law in the universe>>. This law has been dubbed Divine Exclusivity from Sapience, or simply Sapience Exclusivity.
+- Under this reasoning, however, it should have been impossible for Man to have achieved sapience. The problem of the <<Origin of Man>> has thus become an intensly debated area by <<song-sages>> and scientists alike since the inception of the sapience-exclusivity theory.
+So who made man, do you think?
+
+Wards
+- These barries come in different categories; some barriers protect only against song-attacks, others defend from physical hits, and some are even so specialized as to protect against everything but their owner.
+- Wards are the first song-spells.
+- The order in which elemental ward spells were discovered is known as the Grand Order of Intuity.
+- This is because the order denotes the complexity of the magical-particles that form that element.
+- It is theorized that the order is endless, but humans have only discovered 11 of the elements of the set. To discover more, more and more esoteric geometries of magical-particles are required. Some think that higher-dimensions are required to go beyond 11.
+Wardstones
+- Wardstones are machines that employ surrounding elemental magic to produce <<wards>>.
+
+Magical Particles (Mifunsou'sae)
+- Magical Energy particle structures that resonate with certain elements.
+- eg. Fire
+List of Magical Particles
+[Lower Degree]
+- Base Magical Energy (Mifunsou)
+- Fire (Kukisou)
+- Light (Miesou)
+- Earth (Torensou)
+- Darkness (Jisou)
+[Medium Degree]
+- Life (Ketesou) (last-particle)
+- Cognition
+    - Holds a special structure that can resonate with all lower-degree and medium-degree magical particles.
+    - Is capable of binding with but not manipulating/employing Life particles
+- Law (Eejensou)
+[Higher Degree]
+- Fate (Henjin)
+
+
+Complexes
+- Combinations of more than one magical particle
+
+
+Memetic Hazards
+- sometimes knowledge gatherers can receive a memetic hazard that threatens to overwrite the whole thing
+- it's an idea that unravels as it's thought about
+
+
+Knowfeather
+- a measure of information, typically defined as one one hundredth of a perfectly filled knowledge crystal.
+- as knowledge crystals are usually not perfectly filled, in practical usage, a knowfeather is simply 1% of a filled low-grade knowledge crystal.
+
+
+Sueisen
+- A phonetic writing system of Satose, used more commonly than the logographic <<???>>.
+Densewrit
+
+
+<div class="item">
+  <img src="images/items/vial.png" alt="itemImage">
+  <p>Kiiki Saoru Catalyst [20mL]</p>
+  <p class="grey">673.00 credits</p>
+  <p class="smallText"><span class="grey">by</span> Drip n' Drop</p>
+</div>
+<div class="item">
+  <img src="images/items/satoseDictionary.png" alt="itemImage">
+  <p>2000 ESSENTIAL SATOSE WORDS Dictionary One</p>
+  <p class="grey">250.00 credits</p>
+  <p class="smallText"><span class="grey">by</span> The Satose Foundation</p>
+</div>
+<div class="item">
+  <img src="images/items/prewarMysteryBox.png" alt="itemImage">
+  <p>Other Worlds MYSTERY BOX Prewar Artifacts</p>
+  <p class="grey">250.00 credits</p>
+  <p class="smallText"><span class="grey">by</span> Other Worlds Labs</p>
+</div>
+<div class="item">
+  <img src="images/items/sueisenPen.png" alt="itemImage">
+  <p>Sueisen True Pen</p>
+  <p class="grey">1499.00 credits</p>
+  <p class="smallText"><span class="grey">by</span> The Satose Foundation</p>
+</div>
+<div class="item">
+  <img src="images/items/vial.png" alt="itemImage">
+  <p>High quality Miefukonnoi Ink</p>
+  <p class="grey">125.00 credits</p>
+  <p class="smallText"><span class="grey">by</span> Drip n' Drop</p>
+</div>
+<div class="item">
+  <img src="images/items/can.png" alt="itemImage">
+  <p>Canned Laughter</p>
+  <p class="grey">99.00 credits</p>
+  <p class="smallText"><span class="grey">by</span> Nonstop Funny Brothers</p>
+</div>
+
+
+<div class="item">
+  <img src="images/items/mirror.png" alt="itemImage">
+  <p>a mirror to a world beyond</p>
+  <p class="grey">160,000 credits</p>
+  <p class="smallText"><span class="grey">by</span> explorer</p>
+</div>
+<div class="item">
+  <img src="images/items/paper.png" alt="itemImage">
+  <p>to those indebted</p>
+  <p class="grey">50,000 credits</p>
+  <p class="smallText"><span class="grey">by</span> explorer</p>
+</div>
+<div class="item">
+  <img src="images/items/book.png" alt="itemImage">
+  <p>The Infinite Domains: A tour guide to this first world.</p>
+  <p class="grey">950.00 credits</p>
+  <p class="smallText"><span class="grey">by</span> Senshousetsu Kioku</p>
+</div>
+<div class="item">
+  <img src="images/items/book.png" alt="itemImage">
+  <p>the border of ideation</p>
+  <p class="grey">75,000 credits</p>
+  <p class="smallText"><span class="grey">by</span> explorer</p>
+</div>
+<div class="item">
+  <img src="images/items/book.png" alt="itemImage">
+  <p>clapping one-handedly</p>
+  <p class="grey">30,000 credits</p>
+  <p class="smallText"><span class="grey">by</span> explorer</p>
+</div>
