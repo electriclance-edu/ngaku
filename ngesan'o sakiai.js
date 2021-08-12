@@ -2,7 +2,7 @@ function onload() {
   Infobox.initialize();
   Infospring.initialize();
   Infospring.open("spark_owl");
-console.log(fetch("https://jisho.org/api/v1/search/words?keyword=tatemono",{mode:'cors',headers:new Headers().append('Access-Control-Allow-Origin','*')}));
+  console.log(fetch("https://jisho.org/api/v1/search/words?keyword=tatemono",{mode:'cors'}));
 }
 function nothing() {}
 class Player {
