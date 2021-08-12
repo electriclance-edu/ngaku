@@ -77,11 +77,15 @@ button:active {
   width:400px;
   height:200px;
   background-color:rgb(255,255,255);
-  border:2px solid rgb(225,225,225);
+  border:2px solid;
+  border-color:rgb(150,235,255) rgb(225,225,225) rgb(225,225,225) rgb(150,235,255);
   border-radius:15px;
   padding:10px;
   transition:0.5s;
   box-sizing:border-box;
+}
+.infospringHeader span {
+  margin-left:10px;
 }
 .infobox h2 {
   margin:5px;
@@ -211,7 +215,7 @@ button:active {
   top:0;
 }
 .infospring {
-  padding:20px 20px 50px 20px;
+  padding:20px 20px 0px 20px;
   background-color:rgb(255,255,255);
   display:inline-block;
   text-align:left;
@@ -221,18 +225,52 @@ button:active {
   position:absolute;
   overflow-y:scroll;
 }
+.infospring .historyNavigator {
+  position:absolute;
+  top:10px;
+  right:10px;
+  font-size:30px;
+  color:rgb(180,180,180);
+}
+.infospring .historyNavigator span {
+  padding:3px 5px;
+  border-radius:100px;
+  transition:0.3s;
+  user-select:none;
+}
+.infospring .historyNavigator span:hover {
+  background-color:rgb(180,180,180);
+  color:rgb(255,255,255);
+}
+.infospring .historyNavigator span:active {
+  transition:0.1s;
+  background-color:rgb(255,255,255);
+  color:rgb(180,180,180);
+}
 .infospring .databox {
   float:right;
   clear:right;
-  width:200px;
-  padding:5px;
+  width:250px;
+  padding:15px 5px 5px 5px;
   min-height:100px;
-  margin:0px 30px 0px 30px;
+  margin:0px 10px 0px 10px;
   border:2px solid rgb(225,225,225);
   margin-bottom:20px;
 }
 .infospring .databox img {
   width:200px;
+}
+.infospring .databox > .section h4 {
+  margin:5px 0 3px 0;
+}
+.infospring .databox > .section p {
+  margin:0;
+  clear:right;
+}
+.infospring .databox .section p:nth-child(2n + 2) {
+  float:right;
+  position:relative;
+  top:-19.5px; /*really bad fix, but idk how float works*/
 }
 .infospring .navigator p {
   margin-bottom:5px;
@@ -244,25 +282,21 @@ button:active {
   display:inline-block;
   margin-bottom:5px;
 }
-.infospring .section {
+.infospring .infospringSections > .section {
   margin-top:20px;
 }
-.infospring .section h2 {
+.infospring .infospringSections > .section h2 {
   transition:0.2s;
   display:inline-block;
+  padding:2px 5px;
+  position:relative;
+  left:-5px;
 }
-.infospring .section h2:focus {
+.infospring .infospringSections > .section h2:focus {
   outline:0;
   background-color:rgb(255,215,150);
 }
-.infospring span {
-  color:rgb(5,70,175);
-}
-.infospring span:hover {
-  text-decoration:underline;
-  cursor:pointer;
-}
-.infospring p {
+.infospring .infospringSections > .section p {
   margin-bottom:20px;
 }
 /*///////////////////////////////////////////////*/
@@ -274,6 +308,19 @@ button:active {
 }
 .grey {
   color:rgb(150,150,150);
+}
+.invalidLink {
+  color:rgb(220,5,5) !important;
+}
+.link {
+  color:rgb(5,70,175);
+}
+.link:hover, .infoboxer:hover {
+  text-decoration:underline;
+  cursor:pointer;
+}
+.infoboxer {
+  color:rgb(5,160,175) !important;
 }
 .greyOpacity {
   opacity:0.6;
@@ -288,6 +335,11 @@ button:active {
 }
 .smallText {
   font-size:12px;
+}
+.normalText {
+  font-size:16px;
+  font-weight:normal;
+  font-family:'Roboto', sans-serif;
 }
 .centered {
   position:absolute;

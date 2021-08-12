@@ -11,39 +11,28 @@
     <div class="darkBackground" id="darkBackground">
       <div class="clickDetect" onclick="hide('darkBackground')"></div>
       <div class="infospring centered" id="infospring">
-        <h1>Spark owl</h1>
+        <div class="historyNavigator">
+          <span onclick="Infospring.moveAlongHistory(-1)">🡸</span>
+          <span onclick="Infospring.moveAlongHistory(1)">🡺</span>
+        </div>
+        <h1 id="infospringHeader" class="infospringHeader"></h1>
         <hr>
-        <p class="greyOpacity">The following information is taken from an Anaxi Infocache (code: <span onclick="Infobox.display(infocache.b28vc)">b2-8vc</span>) and as such will not reflect present-day conditions.</p>
-        <div class="sections">
-          <div class="databox">
-            <img src="images/items/vial.png" alt="itemImage">
+        <div class="greyOpacity" id="infospringSubtext">
+
+        </div>
+        <div class="infospringSections" id="infospringSections">
+          <div class="databox" id="infospringDatabox">
+            <div class="textCentered">
+              <h4 id="infospringDataboxHeader"></h4>
+              <img src="" alt="databox_article_image" id="infospringDataboxImg">
+              <p class="smallText" id="infospringDataboxCaption"></p>
+            </div>
+            <div id="infospringDataboxInformationSections">
+            </div>
           </div>
-          <div class="section navigator">
+          <div class="navigator section">
             <p class="smallText">Contents of Page:</p>
-            <span onclick="Infospring.scroll(this.innerHTML)">Habitat</span>
-            <span onclick="Infospring.scroll(this.innerHTML)">Feeding</span>
-            <span onclick="Infospring.scroll(this.innerHTML)">Human impact</span>
-          </div>
-          <div class="section">
-            <p>Spark owls are very large birds, the only extant member of the fire-based <span onclick="Infospring.open('songbirds')">songbirds</span>. They receive their name from their bursts of fire used to support their unique acoustic attacks, at night visible like a bright spark. They possess a vast wingspan, approximately seven times the length of their body, feathered with plumage capable of absorbing and reemiting sounds, an ability known as <span onclick="Infospring.open('sound stasis','sparkowl')">sound stasis</span>. This gives spark owls the ability to fly completely silently, allowing them to swoop down on pray without alerting them.</p>
-          </div>
-          <div class="section">
-            <h2 tabindex="-1">Habitat</h2>
-            <hr>
-            <p>Spark owls, like most songbirds, live their entire lives within <span onclick="Infospring.open('ancient biomes','satose forest')">Satose forests</span>. Outside these environments constantly filled with sound, spark owls have difficulty gathering enough energy in their feathers, and typically starve to death due to their inability to perform their attack.</p>
-          </div>
-          <div class="section">
-            <h2 tabindex="-1">Feeding</h2>
-            <hr>
-            <p>Spark owls possess an extremely unique hunting style, relying on their capability to absorb and reemit sounds. Spark owls gather energy within their feathers over time through ambient noise, gathering energy until a specific threshold is reached. Once this happens, the owl will swoop down on prey and release a deadly sonic blast, the sound waves of which are capable of reaching up to 200 decibels, aided by tactical releases of fire increasing air density to support the wave.
-            <p>The attack of a spark owl is enough to fatally damage most creatures. The only creatures capable of physically withstanding such a shockwave are those of the <span onclick="Infospring.open('minor clans','stalwart')">Stalwart</span> clan, though not without injury.</p>
-            <p>Another unique ability of the spark owl is their ability to metabolize <span onclick="Infospring.open('energy','darkness')">Darkness energy</span> into their <span onclick="Infospring.open('life','resonant element')">resonant element</span>, <span onclick="Infospring.open('energy','fire')">Fire</span>. As such, their prey are typically members of the <span onclick="Infospring.open('darkness clans','darkness')">Darkness clans</span>.</p>
-          </div>
-          <div class="section">
-            <h2 tabindex="-1">Human impact</h2>
-            <hr>
-            <p>Spark owls are a frequent nuisance of Darkness <span onclick="Infospring.open('wards','ward forgers')">ward forgers</span>, as the bubble of night around darkness <span onclick="Infospring.open('wards','wardstones')">wardstones</span> frequently attract spark owls searching for food. In biomes with large numbers of Spark owls (eg. <span onclick="Infospring.open('ancient biomes','satose forest')">Satose forests</span>) Darkness wardstones are quickly weathered down by misled Spark owls.</p>
-            <p>Spark owl feathers are a valuable scientific commodity, as the ability to both store and release acoustic energy with such efficiency is rarely seen.</p>
+            <div id="infospringContents" class="infospringContents"></div>
           </div>
         </div>
       </div>

@@ -24,7 +24,7 @@ Description
 Human Impact
 - Spark Owls are a frequent interruptor of <<Darkness>> <<Ward forgers>>, as the bubble of night around <link: Wards<Warding machines>> commonly attract Spark Owls searching for food. In biomes with large collections of Spark Owls (eg. <<darkforest>>) Darkness Wards are quickly destroyed by the confused birds.
 
-Employment
+Employment (magic)
 - ("Employment" is a song-magic process. For "employment" as in working a job, visit <link: https://en.wikipedia.org/wiki/Employment<here>>.)
 - Employment is a process of <<song-magic>>, wherein Divine or Profane songs are used to either coax or force magic-particles suspended in air to perform *duties*. Duties come in a variety of categories, from <link:wards<warding barriers>> to offensive attacks, or to more industrial processes like transporting goods or producing raw material.
 Divine Songs
@@ -34,6 +34,9 @@ Sapience Exclusivity Theory
 - It has been theorized and widely accepted then that this incapability is due to an <link:akamaku#inherent_laws<inherent law in the universe>>. This law has been dubbed Divine Exclusivity from Sapience, or simply Sapience Exclusivity.
 - Under this reasoning, however, it should have been impossible for Man to have achieved sapience. The problem of the <<Origin of Man>> has thus become an intensly debated area by <<song-sages>> and scientists alike since the inception of the sapience-exclusivity theory.
 So who made man, do you think?
+
+Ojemenou (Poem)
+"Ojemenou" is the title of a poem written during the Common
 
 Wards
 - These barries come in different categories; some barriers protect only against song-attacks, others defend from physical hits, and some are even so specialized as to protect against everything but their owner.
@@ -76,6 +79,20 @@ Memetic Hazards
 Knowfeather
 - a measure of information, typically defined as one one hundredth of a perfectly filled knowledge crystal.
 - as knowledge crystals are usually not perfectly filled, in practical usage, a knowfeather is simply 1% of a filled low-grade knowledge crystal.
+
+Primitive Era
+- the first era in human history, where magic was first discovered and used
+- before this era, nothing has survived
+- ends with the precursors' first crusade
+Great War Era
+- a 50,000 year long era where the precursors (and the wovenstrong system) suppressed large societies from forming
+mjn bb                  n nbmb m bnmbnb n b
+Igresterii Era (Sanctuary Era)
+- The most prosperous period of human history, lasting around 50,000 years.
+-
+
+
+
 
 
 Sueisen
